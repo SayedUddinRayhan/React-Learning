@@ -4,6 +4,7 @@ import About from "./About";
 function Home() {
     return (
         <div>
+            Hello world
 
         </div>
     );
