@@ -4,13 +4,18 @@ export default class About extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 'ray'
+            name: 'rayhan',
+            age: 25,
+            profession: {
+                prof1: "Engineer",
+                prof2: "Web Developer"
+            }
         }
     }
 
     render() {
         return (
-            <div>{this.state.name}</div>
+            <div>{this.state.profession.prof2}</div>
         )
     }
 }
