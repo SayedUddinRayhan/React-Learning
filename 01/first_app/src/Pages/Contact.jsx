@@ -1,9 +1,14 @@
 import React from 'react'
+import Fragment from './Fragment';
 
 function Contact(props) {
     return (
-        <div>My name is {props.name}. My age is {props.age}.</div>
+        <>
+            My name is {props.name}. My age is {props.age}.
+        </>
     )
 }
 
 export default Contact
+
+//Fragment shortcut <></>

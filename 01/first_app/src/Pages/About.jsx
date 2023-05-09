@@ -17,12 +17,14 @@ export default class About extends Component {
             }
         )
     }
+
+    btn = this.btn1.bind(this, this.prof)
     render() {
         return (
-            <div>
+            <>
                 <h1>{this.state.profession}</h1>
-                <button onClick={this.btn1.bind(this, this.prof)}>Click me</button>
-            </div>
+                <button onClick={this.btn}>Click me</button>
+            </>
         )
     }
 }
