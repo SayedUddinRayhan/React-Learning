@@ -6,16 +6,23 @@ export default class About extends Component {
         this.state = {
             name: 'rayhan',
             age: 25,
-            profession: {
-                prof1: "Engineer",
-                prof2: "Web Developer"
-            }
+            profession: "Engineer"
         }
     }
 
+    btn1(prof) {
+        this.setState(
+            {
+                profession: "Doctor"
+            }
+        )
+    }
     render() {
         return (
-            <div>{this.state.profession.prof2}</div>
+            <div>
+                <h1>{this.state.profession}</h1>
+                <button onClick={this.btn1.bind(this, this.prof)}>Click me</button>
+            </div>
         )
     }
 }
