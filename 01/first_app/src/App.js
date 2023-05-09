@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Fragment from './Pages/Fragment';
 import Clipboard from './Pages/Clipboard';
+import Keyboard from './Pages/Keyboard';
 function App() {
   return (
     <React.Fragment>
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Fragment />
       <Clipboard />
+      <Keyboard />
     </React.Fragment>
   );
 }
