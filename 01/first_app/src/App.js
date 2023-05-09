@@ -5,7 +5,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Fragment from './Pages/Fragment';
-
+import Clipboard from './Pages/Clipboard';
 function App() {
   return (
     <React.Fragment>
@@ -13,6 +13,7 @@ function App() {
       <Home />
       <About />
       <Fragment />
+      <Clipboard />
     </React.Fragment>
   );
 }
