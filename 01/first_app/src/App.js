@@ -7,6 +7,8 @@ import Contact from './Pages/Contact';
 import Fragment from './Pages/Fragment';
 import Clipboard from './Pages/Clipboard';
 import Keyboard from './Pages/Keyboard';
+import Adminpanel from './Pages/Adminpanel';
+import Fidar from './Pages/Fidar';
 function App() {
   return (
     <React.Fragment>
@@ -16,6 +18,7 @@ function App() {
       <Fragment />
       <Clipboard />
       <Keyboard />
+      <Adminpanel />
     </React.Fragment>
   );
 }
