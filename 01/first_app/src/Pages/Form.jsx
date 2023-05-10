@@ -16,6 +16,8 @@ export default class Form extends Component {
                     <option value="4">4</option>
                 </select>
 
+                <input type="date" onChange={this.change} className='form-control' />
+
             </div>
         )
     }
