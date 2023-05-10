@@ -20,6 +20,13 @@ export default class Form extends Component {
 
                 <textarea name="about" id="" rows="10" onChange={this.change} className='form-control'></textarea>
 
+                <div>
+                    <input type="radio" name='gender' value='Male' onChange={this.change} />
+                    <label name="gender">Male</label>
+                    <input type="radio" name='gender' value='Female' onChange={this.change} />
+                    <label name="gender">Female</label>
+                </div>
+
             </div>
         )
     }
