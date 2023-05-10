@@ -9,6 +9,7 @@ import Clipboard from './Pages/Clipboard';
 import Keyboard from './Pages/Keyboard';
 import Adminpanel from './Pages/Adminpanel';
 import Fidar from './Pages/Fidar';
+import Style from './Pages/Style';
 function App() {
   return (
     <React.Fragment>
@@ -19,6 +20,7 @@ function App() {
       <Clipboard />
       <Keyboard />
       <Adminpanel />
+      <Style />
     </React.Fragment>
   );
 }
