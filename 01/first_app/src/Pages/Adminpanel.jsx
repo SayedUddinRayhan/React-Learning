@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Fidar from './Fidar';
+import './Externalcss.css'
 
 
 export default class Adminpanel extends Component {
