@@ -10,6 +10,7 @@ import Keyboard from './Pages/Keyboard';
 import Adminpanel from './Pages/Adminpanel';
 import Fidar from './Pages/Fidar';
 import Style from './Pages/Style';
+import CSSmodule from './Pages/CSSmodule';
 function App() {
   return (
     <React.Fragment>
@@ -21,6 +22,7 @@ function App() {
       <Keyboard />
       <Adminpanel />
       <Style />
+      <CSSmodule />
     </React.Fragment>
   );
 }
