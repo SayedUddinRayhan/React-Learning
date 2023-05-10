@@ -18,6 +18,8 @@ export default class Form extends Component {
 
                 <input type="date" onChange={this.change} className='form-control' />
 
+                <textarea name="about" id="" rows="10" onChange={this.change} className='form-control'></textarea>
+
             </div>
         )
     }
