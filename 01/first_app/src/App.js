@@ -11,6 +11,7 @@ import Adminpanel from './Pages/Adminpanel';
 import Fidar from './Pages/Fidar';
 import Style from './Pages/Style';
 import CSSmodule from './Pages/CSSmodule';
+import Reactbootstrap from './Pages/Reactbootstrap';
 function App() {
   return (
     <React.Fragment>
@@ -23,6 +24,7 @@ function App() {
       <Adminpanel />
       <Style />
       <CSSmodule />
+      <Reactbootstrap />
     </React.Fragment>
   );
 }
